@@ -1,0 +1,28 @@
+Pasos a seguir para la instalación correcta:
+
+1. Abrir la carpeta Getiquetas y correr el archivo llamado GEtiquetas.
+
+2. Si al iniciar sale un error que dice: "No hay conexión con la base de datos", hacer los siguientes pasos, de lo contrario saltar hasta el No. 9
+
+4. Aceptar e introducir... Usuario:    1
+		 	   Contraseña: 1 
+
+5. Instalar MySQL, como "Maquina cliente"  y colocar como contraseña: 1991
+
+6. Instalar el conector.
+
+7. Abrir MySQL Command Line Client e introducir como contraseña: 1991
+
+8. colocar los siguientes comandos: CREATE DATABASE bd_etiquetas; <enter>
+				    use bd_etiquetas; <enter>
+				    source C:\Program Files (x86)\GETiquetas\BaseDatos\GE EtiquetasSQL.sql <enter>
+						NOTA: TENER CUIDADO EL "PROGRAM FILE (X86)", PUEDE CAMBIAR, DEPENDE DE DONDE UD ALLA INSTALADO EL ARCHIVO.
+				    exit <enter>
+
+NOTA: si al hacer los pasos anteriores y el error persiste, por favor, hacer nuevamente el paso No. 8 y verificar que el nombre sea "bd_etiquetas"
+
+9. Fase de instalación COMPLETADA.
+
+10. Para ingresar al programa debes introducir... Usuario:    admin
+		 				  Contraseña: admin
+				    
